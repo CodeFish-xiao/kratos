@@ -26,7 +26,7 @@ type AppInfo interface {
 	Endpoint() []string
 }
 
-// App is an application components lifecycle manager.
+// App is an application components lifecycle manager. CodeFish
 type App struct {
 	opts     options
 	ctx      context.Context
